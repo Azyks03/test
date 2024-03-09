@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: lightgray;
+    overflow-x: hidden;
+}
+#title{
+    text-align: center;
+    margin: 20px;
+}
+.mainStuff{
+    margin-top: 150px;
+}
+.mainStuff #block1{
+    display: block;
+    transform: translateX(75px);
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 700px;
+    height: 200px;
+    background-color: hsl(0, 2%, 50%);
+    box-shadow: 2px 2px 3px black;
+    border-radius: 15px;
+}
+.mainStuff #block2{
+    display: block;
+    transform: translateX(75px);
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 700px;
+    height: 200px;
+    background-color: hsl(0, 2%, 50%);
+    box-shadow: 2px 2px 3px black;
+    border-radius: 15px;
+}
+.mainStuff #block3{
+    display: block;
+    transform: translateX(75px);
+    margin-left: 250px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 700px;
+    height: 200px;
+    background-color: hsl(0, 2%, 50%);
+    box-shadow: 2px 2px 3px black;
+    border-radius: 15px;
+}
+.mainStuff #heading1{
+    text-align: right;
+    transform: translate(-30px, 30px);
+    color: black;
+}
+.mainStuff #heading2{
+    text-align: right;
+    transform: translate(-30px, 30px);
+    color: black;
+}
+.mainStuff #heading3{
+    text-align: right;
+    transform: translate(-30px, 30px);
+    color: black;
+}
+.mainStuff #idk{
+    text-align: right;
+    transform: translate(-30px, 50px);
+    color: black;
+}
+.mainStuff #monuments{
+    height: 200px;
+    transform: translateY(-66px);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.mainStuff #people{
+    height: 200px;
+    width: 150px;
+    transform: translateY(-66px);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.mainStuff #life{
+    height: 200px;
+    transform: translateY(-66px);
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.mainStuff #button1{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 170px;
+    background-color: hsl(0, 2%, 20%);
+    transition: background-color 0.5s;
+    transform: translate(800px, -100px);
+    color: hsl(0, 0%, 70%);
+    font-size: 20px;
+}
+.mainStuff #button1:hover{
+    background-color: hsl(0, 2%, 10%);
+    background-color: hsl(0, 2%, 0%);
+    cursor: pointer;
+}
+.mainStuff #button2{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 170px;
+    background-color: hsl(0, 2%, 20%);
+    transition: background-color 0.5s;
+    transform: translate(800px, -100px);
+    color: hsl(0, 0%, 70%);
+    font-size: 20px;
+}
+.mainStuff #button2:hover{
+    background-color: hsl(0, 2%, 10%);
+    background-color: hsl(0, 2%, 0%);
+    cursor: pointer;
+}
+.mainStuff #button3{
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 170px;
+    background-color: hsl(0, 2%, 20%);
+    transition: background-color 0.5s;
+    transform: translate(800px, -100px);
+    color: hsl(0, 0%, 70%);
+    font-size: 20px;
+}
+.mainStuff #button3:hover{
+    background-color: hsl(0, 2%, 10%);
+    background-color: hsl(0, 2%, 0%);
+    cursor: pointer;
+}
+.mainStuff #sadatDiv{
+    transform: translate(1130px, -480px);
+}
+.mainStuff #sadatPic{
+    transform: rotateZ(15deg);
+    border-radius: 20px;
+}
+.mainStuff #samira{
+    transform: translateY(-730px);
+    border-radius: 20px;
+}
+.mainStuff #sphinxDiv{
+    transform: translate(-30px, -1230px);
+    display: inline-block;
+}
+.mainStuff #sphinxPic{
+    transform: rotateZ(-7deg);
+    border-radius: 20px;
+}
+.mainStuff #cairo{
+    transform: translate(1060px, -780px);
+    border-radius: 20px;
+}
+#title{
+    transform: translateX(50px);
+}
+#flag{
+    width: 100px;
+    transform: translate(480px, -70px);
+    border-radius: 5px;
+}
+#top-bar{
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 90px;
+    z-index: 1;
+    background-color: hsl(0, 0%, 83%);
+}
+.dropdown{
+    transform: translate(1250px, -155px);
+    position: fixed;
+    z-index: 1;
+}
+#translate-image{
+    width: 85px;
+    margin-top: 8px;
+}
+#translate-image{
+    width: 85px;
+    margin-top: 8px;
+}
+.languageS{
+    display: inline-block;
+}
+.languageS button{
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    cursor: pointer;
+    height: 0px;
+    margin-top: 10px;
+}
+.info-button button{
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    cursor: pointer;
+    height: 0px;
+    margin-top: 13px;
+    margin-left: 15px;
+    transform: translateY(-148px);
+}
+#info-image{
+    width: 67px
+}
+.languageS a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+.languageS .languages{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    background-color: hsl(0, 0%, 43%);
+    transition: opacity 0.5s;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.languageS:hover .languages{
+    visibility: visible;
+    opacity: 1;
+}
+.languages a:hover{
+    background-color: hsl(0, 0%, 23%);
+}
+.languages #English:hover{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#Arabic{
+    text-align: center;
+}

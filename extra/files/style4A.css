@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: lightgray;
+    overflow-x: hidden;
+}
+#heading{
+    text-align: center;
+    margin: 20px;
+}
+.content #name1{
+    text-align: right;
+    margin-right: 310px;
+}
+.content #alexandria{
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 267px;
+}
+.content #alexandriainfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #name2{
+    text-align: right;
+    margin-right: 310px;
+}
+.content #luxor{
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 274px;
+    height: 198px;
+}
+.content #luxorinfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #name3{
+    text-align: right;
+    margin-right: 310px;
+}
+.content #giza{
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 267px;
+}
+.content #gizainfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #name4{
+    text-align: right;
+    margin-right: 310px;
+}
+.content #aswan{
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 267px;
+}
+.content #aswaninfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #name5{
+    text-align: right;
+    margin-right: 310px;
+}
+.content #cairo{
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+    width: 267px;
+}
+.content #cairoinfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.dropdown{
+    margin-left: 1250px;
+    margin-top: -75px;
+}
+#translate-image{
+    width: 85px;
+    margin-top: 8px;
+}
+.languageS{
+    display: inline-block;
+}
+.languageS button{
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+.languageS a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+#top-bar{
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 130px;
+    z-index: 1;
+    background-color: hsl(0, 0%, 83%);
+}
+.languageS .languages{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    background-color: hsl(0, 0%, 43%);
+    transition: opacity 0.5s;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.languageS:hover .languages{
+    visibility: visible;
+    opacity: 1;
+}
+.languages a:hover{
+    background-color: hsl(0, 0%, 23%);
+}
+.languages #English:hover{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#home-click{
+    transform: translate(0px, -60px);
+    height: 100px;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+}
+#home-image{
+    margin-left: 10px;
+    width: 86px;
+}
+#Arabic{
+    text-align: center;
+}
+#travel1{
+    background-color: hsl(0, 0%, 43%);
+    transition: background-color 0.5s;
+    border: none;
+    border-radius: 15px;
+    height: 60px;
+    width: 120px;
+    transform: translate(200px, -50px);
+    color: white;
+    font-size: 15px;
+}
+#travel1:hover{
+    background-color: hsl(0, 2%, 33%);
+    background-color: hsl(0, 2%, 23%);
+    background-color: hsl(0, 2%, 13%);
+    background-color: hsl(0, 2%, 0%);
+    cursor: pointer;
+}
+#travel2{
+    background-color: hsl(0, 0%, 43%);
+    transition: background-color 0.5s;
+    border: none;
+    border-radius: 15px;
+    height: 60px;
+    width: 120px;
+    transform: translate(200px, -50px);
+    color: white;
+    font-size: 15px;
+}
+#travel2:hover{
+    background-color: hsl(0, 2%, 33%);
+    background-color: hsl(0, 2%, 23%);
+    background-color: hsl(0, 2%, 13%);
+    background-color: hsl(0, 2%, 0%);
+    cursor: pointer;
+}
+#travel3{
+    background-color: hsl(0, 0%, 43%);
+    transition: background-color 0.5s;
+    border: none;
+    border-radius: 15px;
+    height: 60px;
+    width: 120px;
+    transform: translate(200px, -50px);
+    color: white;
+    font-size: 15px;
+}
+#travel3:hover{
+    background-color: hsl(0, 2%, 33%);
+    background-color: hsl(0, 2%, 23%);
+    background-color: hsl(0, 2%, 13%);
+    background-color: hsl(0, 2%, 0%);
+    cursor: pointer;
+}
+#travel4{
+    background-color: hsl(0, 0%, 43%);
+    transition: background-color 0.5s;
+    border: none;
+    border-radius: 15px;
+    height: 60px;
+    width: 120px;
+    transform: translate(200px, -50px);
+    color: white;
+    font-size: 15px;
+}
+#travel4:hover{
+    background-color: hsl(0, 2%, 33%);
+    background-color: hsl(0, 2%, 23%);
+    background-color: hsl(0, 2%, 13%);
+    background-color: hsl(0, 2%, 0%);
+    cursor: pointer;
+}
+#travel5{
+    background-color: hsl(0, 0%, 43%);
+    transition: background-color 0.5s;
+    border: none;
+    border-radius: 15px;
+    height: 60px;
+    width: 120px;
+    transform: translate(200px, -50px);
+    color: white;
+    font-size: 15px;
+}
+#travel5:hover{
+    background-color: hsl(0, 2%, 33%);
+    background-color: hsl(0, 2%, 23%);
+    background-color: hsl(0, 2%, 13%);
+    background-color: hsl(0, 2%, 0%);
+    cursor: pointer;
+}
+#visited{
+    margin-left: 590px;
+    margin-top: -75px;
+}
+#speech{
+    transform: translate(800px, -60px);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#location1{
+    height: 50px;
+    transform: translate(-100px, -320px);
+    cursor: pointer;
+}
+#location2{
+    height: 50px;
+    transform: translate(-100px, -260px);
+    cursor: pointer;
+}
+#location3{
+    height: 50px;
+    transform: translate(-100px, -265px);
+    cursor: pointer;
+}
+#location4{
+    height: 50px;
+    transform: translate(-100px, -380px);
+    cursor: pointer;
+}
+#location5{
+    height: 50px;
+    transform: translate(-100px, -290px);
+    cursor: pointer;
+}

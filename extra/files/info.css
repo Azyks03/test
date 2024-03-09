@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: lightgray;
+}
+#thanks{
+    text-align: center;
+    transform: translateY(200px);
+}
+#info{
+    text-align: center;
+    transform: translateY(280px);
+}

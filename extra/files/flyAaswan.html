@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flyE.css">
+    <title>Fly Around The World</title>
+</head>
+<body>
+    <header>
+        <div id="top-bar">
+            <h1 id="heading">الذهاب لأسوان</h1>
+        <div class="dropdown">
+            <div class="languageS">
+                <button id="translate"><img src="../images/translate.jpg" id="translate-image"></button>
+                <div class="languages">
+                    <a href="flyAaswan.html" id="Arabic">عربي</a>
+                    <a href="flyEaswan.html" id="English">English</a>
+                </div>
+            </div>
+        </div>
+        <div class="home-button">
+            <a href="../../mainPageA.html" title="الصفحة الرئيسة">
+            <button id="home-click"><img src="../images/home.JPG" id="home-image"></button>
+            </a>
+        </div>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </header>
+    <main>
+        <div class="plane">
+            <img src="../images/plane.jpg" id="planepic">
+            <h3 id="planetxt" style="margin-left: 45px;">الذهاب للأقصر</h3>
+        </div>
+        <h2 id="type">:درجة المقعد</h2>
+        <div class="input">
+            <label id="Economy">Economy Class</label>
+            <input id="economy" type="radio" name="class">
+            <br>
+            <label id="Business">Business Class</label>
+            <input id="business" type="radio" name="class">
+            <br>
+            <label id="First">First Class</label>
+            <input id="first" type="radio" name="class">
+            <br><br><br>
+            <label id="Email">Email adress</label>
+            <input id="email" type="email">
+            <br><br>
+            <label id="number">How many Tickets</label>
+            <input id="number" type="number" min="1" max="5" value="1">
+            <h3 id="warning" style="transform: translate(-420px, 120px);"></h3>
+        </div>
+        <button id="buy">شراء التذاكر</button>
+    </main>
+    <script src="flyA.js"></script>
+</body>
+</html>

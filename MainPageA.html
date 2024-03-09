@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="extra/files/style1A.css">
+    <script src="https://kit.fontawesome.com/72f9c7cde2.js" crossorigin="anonymous"></script>
+    <title>جمهورية مصر العربية</title>
+</head>
+<body>
+    <header>
+        <div id="top-bar">
+        <h1 id="title">جمهورية مصر العربية</h1>
+        <div id="titleBox"></div>
+        <div><img src="extra/images/flag.png" id="flag"></div>
+        <div class="dropdown">
+            <div class="languageS">
+                <button id="translate"><img src="extra/images/translate.jpg" id="translate-image"></button>
+                <div class="languages">
+                    <a href="extra/files/logIn.html" id="Arabic">عربي</a>
+                    <a href="extra/files/logIn.html" id="English">English</a>
+                </div>
+            </div>
+        </div>
+        <div class="info-button">
+            <a href="extra/files/logIn.html" title="صفحة معلومات">
+            <button id="info-click"><img src="extra/images/info.JPG" id="info-image"></button>
+            </a>
+        </div>
+        </div>
+    </header>
+    <main>
+        <br><br>
+        <ul class="mainStuff">
+            <div id="block1">
+                <h1 id="heading1"><big>المعالم المصرية</big></h1>
+                <h3 id="idk">المعالم المصرية تذكر تاريخ حضارة وقفت على رأس العالم وحكمته</h3>
+                <img src="extra/images/monuments.jpg" id="monuments" alt="statue">
+            </div>
+            <button onclick="monuments()" id="button1">زر المعالم المصرية</button>
+            <div id="block2">
+                <h1 id="heading2"><big>الشخصيات المصرية</big></h1>
+                <h3 id="idk">الشخصيات المصرية العظيمة التي أحدثت تغيرات عالمية</h3>
+                <img src="extra/images/people.jpg" id="people" alt="ahmed-zewail">
+            </div>
+            <button onclick="people()" id="button2">زر الشخصيات المصرية</button>
+            <div id="block3">
+                <h1 id="heading3"><big>المدن المصرية</big></h1>
+                <h3 id="idk">المدن المصرية الجميلة التي يعشقها الملايين وترغب بها المليارات</h3>
+                <img src="extra/images/life.jpg" id="life" alt="countryside">
+            </div>
+            <button onclick="life()" id="button3">زر المدن المصرية</button>
+            <div id="sadatDiv"><img src="extra/images/sadat.jpg" id="sadatPic" alt="muhammad anwar el-sadat"></div>
+            <div><img src="extra/images/samira.jpg" id="samira" alt="samira mousa"></div>
+            <div id="sphinxDiv"><img src="extra/images/sphinx.jpg" id="sphinxPic" alt="sphinx"></div>
+            <div><img src="extra/images/cairo.jpg" id="cairo" alt="cairo from above"></div>
+        </ul>
+    </main>
+    <script>
+        function monuments(){
+            window.location.href = "extra/files/logIn.html"
+        }
+        function people(){
+            window.location.href = "extra/files/logIn.html"
+        }
+        function life(){
+            window.location.href = "extra/files/logIn.html"
+        }
+    </script>
+</html>

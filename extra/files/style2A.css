@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: lightgray;
+    overflow-x: hidden;
+}
+#heading{
+    text-align: center;
+    margin: 20px;
+}
+.content #name1{
+    text-align: right;
+    margin-right: 310px;
+}
+.content #simbel{
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.content #simbelinfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #name2{
+    text-align: right;
+    margin-right: 310px;
+}
+.content #hatshepsut{
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.content #hatshepsutinfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #name3{
+    text-align: right;
+    margin-right: 310px;
+}
+.content #karnak{
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.content #karnakinfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #name4{
+    text-align: right;
+    margin-right: 310px;
+}
+.content #edfu{
+    float: right;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.content #edfuinfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.content #name5{
+    text-align: right;
+    margin-right: 310px;
+}
+.content #dandera{
+    float: right;
+    margin-right: 20px;
+    width: 290px;
+    height: 174px;
+    border-radius: 10px;
+}
+.content #danderainfo{
+    text-align: right;
+    font-size: 25px;
+    transform: translateX(-30px);
+}
+.dropdown{
+    transform: translate(1250px, -75px);
+}
+#translate-image{
+    width: 85px;
+    margin-top: 8px;
+}
+.languageS{
+    display: inline-block;
+}
+.languageS button{
+    border: none;
+    border-radius: 5px;
+    background-color: lightgray;
+    cursor: pointer;
+}
+.languageS a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+#top-bar{
+    position: fixed;
+    right: 0;
+    left: 0;
+    height: 90px;
+    z-index: 1;
+    background-color: hsl(0, 0%, 83%);
+}
+.languageS .languages{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    background-color: hsl(0, 0%, 43%);
+    transition: opacity 0.5s;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.languageS:hover .languages{
+    visibility: visible;
+    opacity: 1;
+}
+.languages a:hover{
+    background-color: hsl(0, 0%, 23%);
+}
+.languages #English:hover{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#home-click{
+    transform: translate(0px, -140px);
+    height: 100px;
+    border: none;
+    background-color: lightgray;
+    cursor: pointer;
+}
+#home-image{
+    margin-left: 10px;
+    width: 86px;
+}
+#Arabic{
+    text-align: center;
+}
+#speech{
+    transform: translate(580px, -60px);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#location1{
+    height: 50px;
+    transform: translate(20px, -300px);
+    cursor: pointer;
+}
+#location2{
+    height: 50px;
+    transform: translate(20px, -445px);
+    cursor: pointer;
+}
+#location3{
+    height: 50px;
+    transform: translate(20px, -310px);
+    cursor: pointer;
+}
+#location4{
+    height: 50px;
+    transform: translate(20px, -410px);
+    cursor: pointer;
+}
+#location5{
+    height: 50px;
+    transform: translate(20px, -280px);
+    cursor: pointer;
+}
